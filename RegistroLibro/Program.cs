@@ -1,10 +1,22 @@
+using Microsoft.EntityFrameworkCore;
 using RegistroLibro.Components;
+using RegistroLibro.Context;
+using RegistroLibro.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+var ConStr = builder.Configuration.GetConnectionString("ConStr");
+
+builder.Services.AddDbContextFactory<Contexto>(options =>
+    options.UseSqlite(ConStr));
+
+builder.Services.AddScoped<LibrosServices>();
+
+builder.Services.AddBlazorBootstrap();
 
 var app = builder.Build();
 

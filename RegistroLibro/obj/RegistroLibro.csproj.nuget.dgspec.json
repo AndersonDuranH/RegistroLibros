@@ -52,11 +52,33 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Aplicada1.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Blazor.Bootstrap": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.11, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
             }
           },
           "imports": [

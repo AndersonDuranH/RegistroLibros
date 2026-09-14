@@ -1,0 +1,432 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\librospages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\librospages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\librospages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\librospages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\librospages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\librospages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\models\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:models\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\layout\\reconnectmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\layout\\reconnectmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\extensors\\toastserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:extensors\\toastserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\layout\\navmenu.razor||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\layout\\navmenu.razor||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\layout\\reconnectmodal.razor||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\layout\\reconnectmodal.razor||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\librospages\\create.razor||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\librospages\\create.razor||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\librospages\\index.razor||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\librospages\\index.razor||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\pages\\librospages\\edit.razor||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\pages\\librospages\\edit.razor||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\_imports.razor||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\_imports.razor||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\app.razor||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\app.razor||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\components\\layout\\mainlayout.razor||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:components\\layout\\mainlayout.razor||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\services\\librosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:services\\librosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\context\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:context\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|c:\\users\\ander\\onedrive\\documents\\p1\\registrodelibros\\registrolibros\\registrolibro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2600523E-FF1B-37B5-9EDA-318F648A8295}|RegistroLibro.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T21:11:28.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:53:19.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReconnectModal.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\ReconnectModal.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeToolTip": "Components\\Layout\\ReconnectModal.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:52:07.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:51:16.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Index.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LibrosPages\\Index.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Index.razor",
+              "RelativeToolTip": "Components\\Pages\\LibrosPages\\Index.razor",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwJQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:49:09.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Create.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LibrosPages\\Create.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Create.razor",
+              "RelativeToolTip": "Components\\Pages\\LibrosPages\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:49:04.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Edit.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LibrosPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Edit.razor",
+              "RelativeToolTip": "Components\\Pages\\LibrosPages\\Edit.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:49:03.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Libros.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Models\\Libros.cs",
+              "RelativeDocumentMoniker": "Models\\Libros.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Models\\Libros.cs",
+              "RelativeToolTip": "Models\\Libros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T19:49:58.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:51:29.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:51:18.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\NotFound.razor",
+              "RelativeToolTip": "Components\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:51:17.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ToastServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Extensors\\ToastServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensors\\ToastServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Extensors\\ToastServiceExtensions.cs",
+              "RelativeToolTip": "Extensors\\ToastServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T20:24:29.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Create.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LibrosPages\\Create.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Create.razor",
+              "RelativeToolTip": "Components\\Pages\\LibrosPages\\Create.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:18:52.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Edit.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LibrosPages\\Edit.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Edit.razor",
+              "RelativeToolTip": "Components\\Pages\\LibrosPages\\Edit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:18:42.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:05:28.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:19:10.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Index.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LibrosPages\\Index.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Pages\\LibrosPages\\Index.razor",
+              "RelativeToolTip": "Components\\Pages\\LibrosPages\\Index.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:18:17.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReconnectModal.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\ReconnectModal.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeToolTip": "Components\\Layout\\ReconnectModal.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:07:53.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:05:28.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LibrosServices.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Services\\LibrosServices.cs",
+              "RelativeDocumentMoniker": "Services\\LibrosServices.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Services\\LibrosServices.cs",
+              "RelativeToolTip": "Services\\LibrosServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T20:00:05.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-14T19:49:05.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T20:25:13.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Contexto.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Context\\Contexto.cs",
+              "RelativeDocumentMoniker": "Context\\Contexto.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Context\\Contexto.cs",
+              "RelativeToolTip": "Context\\Contexto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T19:55:37.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T19:49:06.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
