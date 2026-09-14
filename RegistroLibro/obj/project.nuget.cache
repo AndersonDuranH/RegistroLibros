@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zaf+E5FtEw4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ander\\OneDrive\\Documents\\P1\\RegistroDeLibros\\RegistroLibros\\RegistroLibro\\RegistroLibro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ander\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
