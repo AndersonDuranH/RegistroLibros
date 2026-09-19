@@ -1,0 +1,42 @@
+@page "/"
+@page "/Estudiante/Index"
+@using RegistroLibro.Models
+@using RegistroLibro.Services
+@inject EstudiantesServices estudiantesService
+@inject ToastService toastService
+
+<PageTitle>Registro de Estudiantes</PageTitle>
+<div class="container"><div class="card shadow-lg">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Registro de Estudiantes</h5>
+        <a href="/Estudiante/Create" class="btn btn-primary"><span class="bi bi-plus-square"></span> Crear</a>
+    </div>
+    <div class="card-body">
+        <div class="col-md-4"><label class="form-label"><strong>Búsqueda por nombre</strong></label><div class="input-group">
+            <input class="form-control" @bind="ValorFiltro" placeholder="Buscar estudiante" />
+            <button class="btn btn-outline-primary bi bi-search" @onclick="Buscar"></button>
+        </div></div>
+        <table class="table table-hover mt-3"><thead class="table-striped text-black"><tr>
+            <th>EstudianteId</th><th>Nombres</th><th>Dirección</th><th>Email</th><th>Fecha de nacimiento</th><th>Opciones</th>
+        </tr></thead><tbody>
+        @foreach (var estudiante in ListaEstudiantes) { <tr>
+            <td>@estudiante.EstudianteId</td><td>@estudiante.Nombres</td><td>@estudiante.Direccion</td><td>@estudiante.Email</td><td>@estudiante.FechaNacimiento?.ToString("dd/MM/yyyy")</td>
+            <td class="text-center"><a href="/Estudiante/Edit/@estudiante.EstudianteId" class="btn btn-outline-primary bi bi-pencil-square"></a><button class="btn btn-danger bi bi-trash" @onclick="() => Eliminar(estudiante.EstudianteId)"></button></td>
+        </tr> }
+        </tbody></table>
+    </div>
+    <div class="card-footer"><label>Cantidad: @ListaEstudiantes.Count</label></div>
+</div></div>
+@code {
+    public List<Estudiante> ListaEstudiantes { get; set; } = [];
+    public string ValorFiltro { get; set; } = string.Empty;
+    protected override async Task OnInitializedAsync() => await Buscar();
+    private async Task Buscar() {
+        var termino = ValorFiltro.Trim().ToLower();
+        ListaEstudiantes = await estudiantesService.GetList(p => string.IsNullOrEmpty(termino) || p.Nombres.ToLower().Contains(termino));
+    }
+    private async Task Eliminar(int id) {
+        if (await estudiantesService.Eliminar(id)) { await Buscar(); toastService.ShowSuccess("El estudiante se eliminó correctamente."); }
+        else toastService.ShowError("No se pudo eliminar el estudiante.");
+    }
+}
