@@ -1,0 +1,37 @@
+@page "/Estudiante/Edit/{EstudianteId:int}"
+@using RegistroLibro.Models
+@using RegistroLibro.Services
+@inject EstudiantesServices estudiantesService
+@inject NavigationManager navigationManager
+@inject ToastService toastService
+
+<PageTitle>Modificar Estudiante</PageTitle>
+<EditForm Model="Estudiante" OnValidSubmit="Modificar">
+    <DataAnnotationsValidator /><ValidationSummary />
+    <div class="container"><div class="card shadow-lg">
+        <div class="card-header text-center"><h5 class="card-title">Modificar Estudiante</h5></div>
+        <div class="card-body">
+            <div class="mb-3"><label class="form-label"><strong>Nombres</strong></label><InputText class="form-control" @bind-Value="Estudiante.Nombres" /><ValidationMessage For="(() => Estudiante.Nombres)" /></div>
+            <div class="mb-3"><label class="form-label"><strong>Dirección</strong></label><InputText class="form-control" @bind-Value="Estudiante.Direccion" /><ValidationMessage For="(() => Estudiante.Direccion)" /></div>
+            <div class="mb-3"><label class="form-label"><strong>Email</strong></label><InputText class="form-control" type="email" @bind-Value="Estudiante.Email" /><ValidationMessage For="(() => Estudiante.Email)" /></div>
+            <div class="mb-3"><label class="form-label"><strong>Fecha de nacimiento</strong></label><InputDate class="form-control" @bind-Value="Estudiante.FechaNacimiento" /><ValidationMessage For="(() => Estudiante.FechaNacimiento)" /></div>
+        </div>
+        <div class="card-footer text-center mt-2"><a href="/Estudiante/Index" class="btn btn-secondary"><span class="bi bi-arrow-left"></span> Volver</a><button type="submit" class="btn btn-primary bi bi-floppy"> Modificar</button><button type="button" class="btn btn-danger bi bi-trash" @onclick="Eliminar"> Eliminar</button></div>
+    </div></div>
+</EditForm>
+@code {
+    [Parameter] public int EstudianteId { get; set; }
+    public Estudiante Estudiante { get; set; } = new();
+    protected override async Task OnInitializedAsync() => Estudiante = await estudiantesService.Buscar(EstudianteId) ?? new();
+    private async Task Modificar() {
+        Estudiante.Nombres = Estudiante.Nombres.Trim();
+        var coincidencias = await estudiantesService.GetList(x => x.Nombres.ToLower() == Estudiante.Nombres.ToLower() && x.EstudianteId != Estudiante.EstudianteId);
+        if (coincidencias.Count > 0) { toastService.ShowError("Ya existe un estudiante registrado con esos nombres."); return; }
+        if (await estudiantesService.Guardar(Estudiante)) { toastService.ShowSuccess("El estudiante se guardó con éxito."); navigationManager.NavigateTo("/Estudiante/Index"); }
+        else toastService.ShowError("Ocurrió un problema al guardar el estudiante.");
+    }
+    private async Task Eliminar() {
+        if (await estudiantesService.Eliminar(Estudiante.EstudianteId)) { toastService.ShowSuccess("El estudiante se eliminó correctamente."); navigationManager.NavigateTo("/Estudiante/Index"); }
+        else toastService.ShowError("No se pudo eliminar el estudiante.");
+    }
+}
