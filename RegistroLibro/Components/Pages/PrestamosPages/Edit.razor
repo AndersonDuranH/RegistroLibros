@@ -123,7 +123,7 @@
         }
         else
         {
-            toastService.ShowError("No se encontró el préstamo solicitado.");
+            toastService.ShowError("No se encontro el prestamo solicitado.");
             navigationManager.NavigateTo("/Prestamo/Index");
         }
     }
@@ -132,31 +132,31 @@
     {
         if (Prestamo.EstudianteId <= 0)
         {
-            toastService.ShowError("Debe seleccionar un estudiante válido.");
+            toastService.ShowError("Debe seleccionar un estudiante valido.");
             return;
         }
 
         if (Prestamo.LibroId <= 0)
         {
-            toastService.ShowError("Debe seleccionar un libro válido.");
+            toastService.ShowError("Debe seleccionar un libro valido.");
             return;
         }
 
         if (Prestamo.FechaDevolucion < Prestamo.FechaPrestamo)
         {
-            toastService.ShowError("La fecha de devolución no puede ser anterior a la fecha del préstamo.");
+            toastService.ShowError("La fecha de devolucion no puede ser anterior a la fecha del prestamo.");
             return;
         }
 
         var guardado = await prestamosService.Guardar(Prestamo);
         if (guardado)
         {
-            toastService.ShowSuccess("El préstamo se ha modificado exitosamente.");
+            toastService.ShowSuccess("El prestamo se ha modificado exitosamente.");
             navigationManager.NavigateTo("/Prestamo/Index");
         }
         else
         {
-            toastService.ShowError("Ocurrió un problema al modificar el préstamo.");
+            toastService.ShowError("Ocurrio un problema al modificar el prestamo.");
         }
     }
 
@@ -176,12 +176,12 @@
         var eliminado = await prestamosService.Eliminar(Prestamo.PrestamoId);
         if (eliminado)
         {
-            toastService.ShowSuccess("El préstamo se eliminó correctamente.");
+            toastService.ShowSuccess("El prestamo se elimino correctamente.");
             navigationManager.NavigateTo("/Prestamo/Index");
         }
         else
         {
-            toastService.ShowError("No se pudo eliminar el préstamo.");
+            toastService.ShowError("No se pudo eliminar el prestamo.");
         }
     }
 }

@@ -73,7 +73,7 @@
         Prestamo = await prestamosService.Buscar(PrestamoId);
         if (Prestamo == null)
         {
-            toastService.ShowError("No se encontró el préstamo a eliminar.");
+            toastService.ShowError("No se encontro el prestamo a eliminar.");
             navigationManager.NavigateTo("/Prestamo/Index");
         }
     }
@@ -85,12 +85,12 @@
             var eliminado = await prestamosService.Eliminar(Prestamo.PrestamoId);
             if (eliminado)
             {
-                toastService.ShowSuccess("El préstamo ha sido eliminado correctamente.");
+                toastService.ShowSuccess("El prestamo ha sido eliminado correctamente.");
                 navigationManager.NavigateTo("/Prestamo/Index");
             }
             else
             {
-                toastService.ShowError("No se pudo eliminar el préstamo.");
+                toastService.ShowError("No se pudo eliminar el prestamo.");
             }
         }
     }

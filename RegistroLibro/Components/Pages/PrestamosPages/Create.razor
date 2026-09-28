@@ -107,19 +107,19 @@
 
         if (Prestamo.FechaDevolucion < Prestamo.FechaPrestamo)
         {
-            toastService.ShowError("La fecha de devolución no puede ser anterior a la fecha del préstamo.");
+            toastService.ShowError("La fecha de devolucion no puede ser anterior a la fecha del prestamo.");
             return;
         }
 
         var guardado = await prestamosService.Guardar(Prestamo);
         if (guardado)
         {
-            toastService.ShowSuccess("El préstamo se ha guardado exitosamente.");
+            toastService.ShowSuccess("El prestamo se ha guardado exitosamente.");
             navigationManager.NavigateTo("/Prestamo/Index");
         }
         else
         {
-            toastService.ShowError("Ocurrió un error al guardar el préstamo.");
+            toastService.ShowError("Ocurrio un error al guardar el prestamo.");
         }
     }
 }
