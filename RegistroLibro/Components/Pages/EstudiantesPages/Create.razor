@@ -26,9 +26,11 @@
     private async Task Guardar() {
         Estudiante.Nombres = Estudiante.Nombres.Trim();
         var coincidencias = await estudiantesService.GetList(x => x.Nombres.ToLower() == Estudiante.Nombres.ToLower());
-        if (coincidencias.Count > 0) { toastService.ShowError("Ya existe un estudiante registrado con esos nombres."); return; }
-        if (await estudiantesService.Guardar(Estudiante)) { toastService.ShowSuccess("El estudiante se guardó con éxito."); navigationManager.NavigateTo("/Estudiante/Index"); }
-        else toastService.ShowError("Ocurrió un problema al guardar el estudiante.");
+        if (coincidencias.Count > 0) { toastService.ShowError("Ya existe un estudiante registrado con esos nombres."); 
+        return; 
+        }
+        if (await estudiantesService.Guardar(Estudiante)) { toastService.ShowSuccess("El estudiante se guardo con exito."); navigationManager.NavigateTo("/Estudiante/Index"); }
+        else toastService.ShowError("Ocurrio un problema al guardar el estudiante.");
     }
     
 }

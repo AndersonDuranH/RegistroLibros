@@ -9,23 +9,23 @@ public class Prestamos
     public int PrestamoId { get; set; }
 
     [Required(ErrorMessage = "Debe seleccionar un estudiante.")]
-    [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar un estudiante válido.")]
+    [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar un estudiante valido.")]
     public int EstudianteId { get; set; }
 
     [ForeignKey("EstudianteId")]
     public virtual Estudiante? Estudiante { get; set; }
 
     [Required(ErrorMessage = "Debe seleccionar un libro.")]
-    [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar un libro válido.")]
+    [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar un libro valido.")]
     public int LibroId { get; set; }
 
     [ForeignKey("LibroId")]
     public virtual Libros? Libro { get; set; }
 
-    [Required(ErrorMessage = "Es necesario ingresar la fecha del préstamo.")]
+    [Required(ErrorMessage = "Es necesario ingresar la fecha del prestamo.")]
     public DateTime FechaPrestamo { get; set; } = DateTime.Today;
 
-    [Required(ErrorMessage = "Es necesario ingresar la fecha estimada de devolución.")]
+    [Required(ErrorMessage = "Es necesario ingresar la fecha estimada de devolucion.")]
     public DateTime FechaDevolucion { get; set; } = DateTime.Today.AddDays(7);
 
     [Required(ErrorMessage = "Es necesario ingresar el concepto u observaciones.")]
