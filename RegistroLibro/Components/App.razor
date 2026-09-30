@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
     <meta charset="utf-8" />
@@ -13,15 +13,13 @@
     <link href="_content/Blazor.Bootstrap/blazor.bootstrap.css" rel="stylesheet" />
     <ImportMap />
     <link rel="icon" type="image/png" href="favicon.png" />
-	<HeadOutlet @rendermode="InteractiveServer" />
+    <HeadOutlet @rendermode="InteractiveServer" />
 </head>
-
 <body>
-	<Routes @rendermode="InteractiveServer" />
+    <Routes @rendermode="InteractiveServer" />
     <ReconnectModal />
     <script src="@Assets["lib/bootstrap/dist/js/bootstrap.bundle.min.js"]"></script>
     <script src="_content/Blazor.Bootstrap/blazor.bootstrap.js"></script>
     <script src="@Assets["_framework/blazor.web.js"]"></script>
 </body>
-
 </html>

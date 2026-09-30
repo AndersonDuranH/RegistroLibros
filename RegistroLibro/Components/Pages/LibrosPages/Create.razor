@@ -59,19 +59,19 @@
         
         if (coincidencias.Count > 0)
         {
-            toastService.ShowError("El título ingresado ya se encuentra registrado.");
+            toastService.ShowError("El titulo ingresado ya se encuentra registrado.");
             return; 
         }
 
         var guardadoExitoso = await librosService.Guardar(Libro);
         if (guardadoExitoso)
         {
-            toastService.ShowSuccess("El libro fue creado con éxito.");
+            toastService.ShowSuccess("El libro fue creado con exito.");
             navigationManager.NavigateTo("/Libro/Index");
         }
         else
         {
-            toastService.ShowError("Ocurrió un problema al intentar guardar el libro.");
+            toastService.ShowError("Ocurrio un problema al intentar guardar el libro.");
         }
     }
 }

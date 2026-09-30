@@ -32,7 +32,7 @@
                     <ValidationMessage For="(() => Libro.Autor)" />
                 </div>
 
-                @* Año de Publicación *@
+                @* Año de Publicacion *@
                 <div class="mb-3">
                     <label class="form-label"><strong>Año de Publicación</strong></label>
                     <InputNumber class="form-control" @bind-Value="Libro.AnoPublicacion"></InputNumber>
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            @* Botones de Acción *@
+            @* Botones de Accion *@
             <div class="card-footer text-center mt-2">
                 <a href="/Libro/Index" class="btn btn-secondary">
                     <span class="bi bi-arrow-left"></span> Volver
@@ -70,7 +70,7 @@
 
         if (coincidencias.Count > 0)
         {
-            toastService.ShowError("El título ingresado ya pertenece a otro libro.");
+            toastService.ShowError("El titulo ingresado ya pertenece a otro libro.");
             return;
         }
 
@@ -83,7 +83,7 @@
         }
         else
         {
-            toastService.ShowError("Ocurrió un error al intentar actualizar el libro.");
+            toastService.ShowError("Ocurrio  un error al intentar actualizar el libro.");
         }
     }
 

@@ -1,0 +1,97 @@
+@page "/Prestamo/Delete/{PrestamoId:int}"
+@rendermode InteractiveServer
+
+@using RegistroLibro.Models
+@using RegistroLibro.Services
+@inject PrestamosServices prestamosService
+@inject NavigationManager navigationManager
+@inject ToastService toastService
+
+<PageTitle>Eliminar Préstamo</PageTitle>
+
+<div class="container">
+    <div class="card shadow-lg border-danger">
+        <div class="card-header bg-danger text-white text-center">
+            <h5 class="card-title mb-0"><i class="bi bi-exclamation-triangle-fill me-2"></i> ¿Está seguro de que desea eliminar este préstamo?</h5>
+        </div>
+
+        <div class="card-body">
+            @if (Prestamo != null)
+            {
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label text-muted"><strong>ID Préstamo:</strong></label>
+                        <p class="fs-5">@Prestamo.PrestamoId</p>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label text-muted"><strong>Estudiante:</strong></label>
+                        <p class="fs-5">@(Prestamo.Estudiante?.Nombres ?? $"ID {Prestamo.EstudianteId}")</p>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label text-muted"><strong>Libro:</strong></label>
+                        <p class="fs-5">@(Prestamo.Libro?.Titulo ?? $"ID {Prestamo.LibroId}")</p>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label text-muted"><strong>Autor:</strong></label>
+                        <p class="fs-5">@(Prestamo.Libro?.Autor ?? "N/A")</p>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label text-muted"><strong>Fecha de Préstamo:</strong></label>
+                        <p class="fs-5">@Prestamo.FechaPrestamo.ToString("dd/MM/yyyy")</p>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label class="form-label text-muted"><strong>Fecha Estimada de Devolución:</strong></label>
+                        <p class="fs-5">@Prestamo.FechaDevolucion.ToString("dd/MM/yyyy")</p>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <label class="form-label text-muted"><strong>Concepto / Observaciones:</strong></label>
+                        <p class="fs-5">@Prestamo.Concepto</p>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <p>Cargando detalles del préstamo...</p>
+            }
+        </div>
+
+        <div class="card-footer text-center">
+            <a href="/Prestamo/Index" class="btn btn-secondary me-2">
+                <span class="bi bi-arrow-left"></span> Cancelar
+            </a>
+            <button type="button" class="btn btn-danger bi bi-trash" @onclick="Eliminar"> Confirmar Eliminación</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int PrestamoId { get; set; }
+    public Prestamos? Prestamo { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Prestamo = await prestamosService.Buscar(PrestamoId);
+        if (Prestamo == null)
+        {
+            toastService.ShowError("No se encontro el prestamo a eliminar.");
+            navigationManager.NavigateTo("/Prestamo/Index");
+        }
+    }
+
+    private async Task Eliminar()
+    {
+        if (Prestamo != null)
+        {
+            var eliminado = await prestamosService.Eliminar(Prestamo.PrestamoId);
+            if (eliminado)
+            {
+                toastService.ShowSuccess("El prestamo ha sido eliminado correctamente.");
+                navigationManager.NavigateTo("/Prestamo/Index");
+            }
+            else
+            {
+                toastService.ShowError("No se pudo eliminar el prestamo.");
+            }
+        }
+    }
+}
