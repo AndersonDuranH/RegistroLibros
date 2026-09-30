@@ -16,11 +16,9 @@ namespace RegistroLibro.Models;
         public string Titulo { get; set; } = null!;
 
         [Required(ErrorMessage = "Es necesario ingresar un autor")]
-
         public string Autor { get; set; } = null!;
 
         [Required(ErrorMessage = "Es necesario ingresar un año")]
-
         public int AnoPublicacion { get; set; }
 
     }
